@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main {
+    background-color: rgba(173, 216, 230, 0.272);
+    width: 100%;
+    height: 200vh;
+    padding: 5rem;
+  }
+  .section-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  .main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 4px 4px rgba(211, 211, 211, 0.233);
+    margin: 20px;
+  }
+  .div-div {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(211, 211, 211, 0.623);
+  }
+  .div {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(135, 206, 250, 0.577);
+    transition: transform 0.5s 0.05s ease-in-out;
+    cursor: pointer;
+  }
+  .div-one:hover {
+    transform: rotate(45deg);
+  }
+  .div-two:hover {
+    transform: scale(1, 0.6);
+  }
+  .div-three:hover {
+    transform: scale(0.6, 1);
+  }
+  .div-four:hover {
+    transform: scale(2, 2);
+  }
+  .div-five:hover {
+    transform: scale(2, 1);
+  }
+  .div-six:hover {
+    transform: scale(1, 2);
+  }
+  .div-seven:hover {
+    transform: skew(35deg, 0deg);
+  }
+  .div-eight:hover {
+    transform: skew(0deg, 35deg);
+  }
+  .div-nine:hover {
+    transform: translate(40px, 20px);
+  }
+  .div-ten:hover {
+    transform: translate(40px, 0px);
+  }
+  .section-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  .div-eleven:hover {
+    transform: translate(0px, 40px);
+  }
+  .div-twelve {
+    transform-origin: bottom;
+  }
+  .div-twelve:hover {
+    transform: scale(1.4, 1.6) skew(0deg, 45deg);
+  }
+  .div-thirteen:hover {
+    transform: perspective(130px) rotateX(40deg);
+  }
+  .div-fourteen:hover {
+    transform: perspective(130px) rotateY(40deg);
+  }
+  .div-fifteen {
+    transform-origin: top right;
+  }
+  .div-fifteen:hover {
+    transform: rotate(45deg);
+  }
+  .div-sixteen {
+    transform-origin: bottom left;
+  }
+  .div-sixteen:hover {
+    transform:  rotate(45deg);
+  }
+  .div-seventeen {
+    transform-origin: bottom;
+  }
+  .div-seventeen:hover {
+    transform: perspective(150px) rotateX(25deg);
+  }
+  .div-eighteen {
+    transform-origin: top;
+  }
+  .div-eighteen:hover {
+    transform: perspective(300px) rotateX(50deg);
+  }
+  .div-nineteen {
+    transform-origin: left;
+  }
+  .div-nineteen:hover {
+    transform: perspective(400px) rotateY(40deg);
+  }
+  
+  .div-twenty {
+    transform-origin: right;
+  }
+  .div-twenty:hover {
+    transform: perspective(300px) rotateY(55deg);
+  }
+  .div-twenty-one {
+    transform-origin: top right;
+  }
+  .div-twenty-one:hover {
+    transform: scale(2, 2);
+  }
+  .div-twenty-two {
+    transform-origin: bottom left;
+  }
+  .div-twenty-two:hover {
+    transform: scale(2, 2);
+  }
+  .div-twenty-three {
+    transform-origin: right;
+  }
+  .div-twenty-three:hover {
+    transform: scale(2, 1);
+  }
+  .div-twenty-four {
+    transform-origin: left;
+  }
+  .div-twenty-four:hover {
+    transform: scale(2, 1);
+  }
+  .div-twenty-five {
+    transform-origin: top;
+  }
+  .div-twenty-five:hover {
+    transform: scale(1, 2);
+  }
+  .div-twenty-six {
+    transform-origin: bottom;
+  }
+  .div-twenty-six:hover {
+    transform: scale(1, 2);
+  }
+  
